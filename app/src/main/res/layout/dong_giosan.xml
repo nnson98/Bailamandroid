@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:orientation="horizontal"
+       android:id="@+id/ln1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:weightSum="2">
+
+       <TextView
+           android:id="@+id/txttensan"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:textColor="@android:color/holo_red_dark"
+           android:text="San 1"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtNgayDatSanBanh"
+           android:text="2019/8/7"
+           android:layout_marginLeft="50dp"
+           />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/ln1"
+        android:orientation="horizontal"
+        android:id="@+id/ln2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtthoigianbatdau"
+            android:text="7:00"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtthoigianketthuc"
+            android:text="8:00"
+            android:layout_marginLeft="73dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln3"
+        android:orientation="horizontal"
+        android:layout_below="@id/ln2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txttentt"
+            android:text="Nguyen Van A"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pepsi"
+            android:id="@+id/txttennuoc"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ln3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200000"
+            android:id="@+id/txttongtien"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0944705204"
+            android:id="@+id/txtphone"
+            android:layout_marginLeft="50dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ln5"
+        android:layout_below="@+id/ln4"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imghinhdelete"
+            android:src="@drawable/icon_xoa"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

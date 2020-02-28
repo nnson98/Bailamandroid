@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imgHinhSanBanh"
+        android:layout_below="@+id/txtTenSanBanh"
+        />
+    <TextView
+        android:text="Ten San Banh"
+        android:id="@+id/txtTenSanBanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLoaiSan"
+        android:layout_below="@+id/txtTenSanBanh"
+        android:layout_toRightOf="@+id/imgHinhSanBanh"
+        android:text="Loai San Banh"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDonGiaSan"
+        android:layout_below="@+id/txtLoaiSan"
+        android:layout_toRightOf="@+id/imgHinhSanBanh"
+        android:text="Don Gia San"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đặt sân"
+        android:id="@+id/btndatsan"
+        android:layout_below="@+id/txtDonGiaSan"
+        android:layout_toRightOf="@id/imgHinhSanBanh"
+        />
+
+</RelativeLayout>
